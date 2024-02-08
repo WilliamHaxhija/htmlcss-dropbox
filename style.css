@@ -29,6 +29,12 @@
     color: white;
 }
 
+.btn-transparent {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px 14px;
+    font-size: 16px;
+}
 /*--- /buttons ---*/
 
 
@@ -148,6 +154,7 @@ header a {
        SECTIONS
 --------------------*/
 
+/*--- first section ---*/
 section {
     margin: 50px 0;
 }
@@ -250,4 +257,39 @@ hr {
     margin-top: 50px;
 }
 
+/*--- /first section ---*/
 
+/*--- second section ---*/
+
+.second-section {
+    display: flex;
+    gap: 50px;
+}
+
+.second-section > div:first-child {
+    max-width: 66.66%;
+}
+
+.second-section > div:last-child {
+    max-width: 33.33%;
+    padding-left: 10px;
+}
+
+.second-section img {
+    max-width: 100%;
+}
+
+.second-section h3 {
+    margin-top: 50px; 
+}
+
+.second-section p {
+    margin-top: 20px;
+}
+
+.second-section .btn-container {
+    margin: 0;
+    margin-top: 30px;
+}
+
+/*--- /second section ---*/
