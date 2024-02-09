@@ -96,6 +96,7 @@ header > * {
 }
 
 header img {
+    max-height: 25px;
     cursor: pointer;
 }
 
@@ -112,7 +113,7 @@ header a {
 #hero {
     background-color: #b4d0e7;
     margin-top: 65px;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
 }
 
 .h1-container {
@@ -136,9 +137,9 @@ header a {
 }
 
 .hero-text i {
-    font-size: 55px;
-    margin-top: 80px;
-    margin-bottom: 30px;
+    font-size: 50px;
+    margin-top: 65px;
+    margin-bottom: 50px;
 }
 
 .jumbo-img {
@@ -147,7 +148,10 @@ header a {
 
 #hero img {
     max-width: 100%;
-    margin-bottom: -80px;
+}
+
+.overflow {
+    margin-bottom: -70px;
 }
 
 /*--------------------
@@ -467,6 +471,10 @@ hr {
     margin-top: 40px;
     margin-bottom: 30px;
     padding-top: 40px;
+}
+
+.fa-chevron-down {
+    font-size: 13px;
 }
 
 /*--- /accordion section ---*/
