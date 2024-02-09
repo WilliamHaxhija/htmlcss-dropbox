@@ -519,3 +519,7 @@ footer span {
 footer i {
     margin-right: 5px;
 }
+
+footer .container-hr {
+    padding-bottom: 60px;
+}
