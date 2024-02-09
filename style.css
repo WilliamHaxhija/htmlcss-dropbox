@@ -147,8 +147,7 @@ header a {
 
 #hero img {
     max-width: 100%;
-    position: relative;
-    bottom: -75px;
+    margin-bottom: -80px;
 }
 
 /*--------------------
@@ -342,7 +341,7 @@ hr {
 .logos {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
 }
 
 .logos-sx, .logos-dx {
@@ -366,6 +365,7 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .logos img {
@@ -455,7 +455,7 @@ hr {
 }
 
 .accordion-container i {
-    margin-right: 35px;
+    margin-right: 40px;
 }
 
 .accordion .container-1000 > div {
@@ -490,7 +490,7 @@ footer .container-1200 {
 }
 
 footer h3 {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 footer a {
@@ -504,7 +504,7 @@ footer ul {
 
 footer hr {
     color: white;
-    padding-bottom: 60px;
+    max-width: 10%;
 }
 
 .container-hr {
