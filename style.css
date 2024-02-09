@@ -29,8 +29,8 @@
     color: white;
 }
 
-.btn-transparent {
-    background-color: transparent;
+.btn-white {
+    background-color: white;
     border: 1px solid black;
     padding: 10px 14px;
     font-size: 16px;
@@ -296,6 +296,8 @@ hr {
 
 /*--- /second section ---*/
 
+/*--- third section ---*/
+
 .third-section {
     margin-top: 165px;
 }
@@ -323,4 +325,113 @@ hr {
 }
 .third-section .container-1000:last-child > div:last-of-type {
     margin-top:  70px;
+    margin-bottom: 150px;
 }
+
+/*--- /third section ---*/
+
+/*--- logos section ---*/
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.logos-sx, .logos-dx {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logos > div {
+    width: calc(100% / 3);
+}
+
+.logos-sx div, .logos-dx div {
+    width: 50%;
+    height: 320px;
+    position: relative;
+}
+
+.logos img:not(.center-img) {
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logos img {
+    color: white;
+}
+
+.logos-sx div:first-child {
+    background-color: #a2d39b;
+    border: 15px solid #d1e9cd ;
+}
+
+.logos-sx div:nth-child(2) {
+    background-color: #61082b;
+}
+
+.logos-sx div:nth-child(3) {
+    background-color: #0093ce;
+}
+
+.logos-sx div:last-child {
+    background-color: #ff1c1c;
+}
+
+.logo-center {
+    background-color: #f5f5f5;
+    padding: 50px;
+}
+
+.center-img {
+    max-width: 50%;
+}
+
+.logo-center p {
+    margin-bottom: 50px;
+}
+
+.logos-dx div:first-child {
+    background-color: #d5001f;
+}
+
+.logos-dx div:nth-child(2) {
+    background-color: #b4d0e7;
+}
+
+.logos-dx div:nth-child(3) {
+    background-color: #0d2481;
+}
+
+.logos-dx div:last-child {
+    background-color: #ffd830;
+}
+
+.logos-footer {
+    background-color: #b4d0e7;
+}
+
+.logos-footer .container-1000 {
+    display: flex;
+    align-items: center;
+}
+
+.logos-footer .container-1000 > div {
+    width: 50%;
+    margin: 110px 0;
+}
+
+.logos-footer .btn-container {
+    display: flex;
+}
+
+.logos-footer button {
+    border: none;
+    padding: 10px 50px;
+}
+
+/*--- /logos section ---*/
