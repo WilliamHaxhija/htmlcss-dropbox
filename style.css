@@ -35,6 +35,8 @@
     padding: 10px 14px;
     font-size: 16px;
 }
+
+
 /*--- /buttons ---*/
 
 .container-1200 {
@@ -54,15 +56,42 @@
     gap: 50px;
 }
 
-a:hover {
+/*--- hover ---*/
+
+header a:hover {
     font-size: 16px;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
+}
+
+span a:hover {
+    font-size: 18px;
+    transition-duration: 0.2s;
+}
+
+div a:hover{
+    font-size: 18px;
+    transition-duration: 0.2s;
 }
 
 footer li:hover {
     font-size: 18px;
+    transition-duration: 0.2s;
+}
+
+.btn:hover {
+    background-color: rgba(0,0,0, 0.1);
     transition-duration: 0.3s;
 }
+
+.btn-blue:hover {
+    color: #000000;
+}
+
+.fa-chevron-down:hover {
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+}
+/*--- /hover ---*/
 
 /*--------------------
       TYPOGRAPHY
@@ -219,6 +248,7 @@ li {
     display: flex;
     gap: 8px;
     margin: 17px 0;
+    width: fit-content;
 }
 
 .plan-explaination ul i {
@@ -487,6 +517,7 @@ hr {
 
 .fa-chevron-down {
     font-size: 13px;
+    cursor: pointer;
 }
 
 /*--- /accordion section ---*/
