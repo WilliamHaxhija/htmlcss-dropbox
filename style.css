@@ -91,6 +91,11 @@ footer li:hover {
     transform: rotate(180deg);
     transition-duration: 0.5s;
 }
+
+.logos > div div:hover, .logo-center:hover {
+    border: 15px solid rgba(0,0,0,0.3);
+    transition-duration: .3s;
+}
 /*--- /hover ---*/
 
 /*--------------------
