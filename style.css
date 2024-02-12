@@ -96,6 +96,11 @@ footer li:hover {
     border: 15px solid rgba(0,0,0,0.3);
     transition-duration: .3s;
 }
+
+.fa-arrow-down:hover {
+    font-size: 62px;
+    transition-duration: 0.5s;
+}
 /*--- /hover ---*/
 
 /*--------------------
@@ -184,6 +189,7 @@ header a {
     font-size: 50px;
     margin-top: 65px;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .jumbo-img {
