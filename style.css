@@ -541,18 +541,18 @@ border-bottom: 1px solid #999999;
     cursor: pointer;
 }
 
-.showdown {
+.showdown, .showdown-2, .showdown-3 {
     display: none;
 }
 
-#tendina {
+#tendina, #tendina-2, #tendina-3 {
     display: none;
 }
 
-#tendina:checked ~ .showdown {
+#tendina:checked ~ .showdown, #tendina-2:checked ~ .showdown-2, #tendina-3:checked ~ .showdown-3 {
+    margin-right: 70px;
     display: block;
     margin-top: 25px;
-    margin-right: 70px;
 }
 
 /*--- /accordion section ---*/
